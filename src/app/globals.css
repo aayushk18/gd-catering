@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-crimson: #B3202A;
+    --color-crimson-dark: #8A151D;
+    --color-crimson-deep: #4A070D;
+    --color-cream: #FDFBF7;
+    --color-cream-warm: #FBF3E0;
+    --color-parchment: #F7EBD0;
+    --color-gold: #C9A24B;
+    --color-gold-light: #F5D061;
+    --color-gold-dark: #8A6414;
+    --color-maroon-text: #2D0B0E;
+    --color-maroon-muted: #664144;
+  }
+}
+
+/* Custom Royal Typography Classes */
+.font-royal {
+  font-family: var(--font-cormorant), 'Playfair Display', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel), 'Cinzel', Georgia, serif;
+}
+
+.font-body {
+  font-family: var(--font-poppins), system-ui, sans-serif;
+}
+
+.font-hindi {
+  font-family: var(--font-hindi), 'Noto Serif Devanagari', 'Tiro Devanagari Hindi', serif;
+}
+
+.font-script {
+  font-family: var(--font-script), 'Great Vibes', cursive;
+}
+
+/* Royal Gradients */
+.gold-text-gradient {
+  background: linear-gradient(135deg, #FFE89E 0%, #D4AF37 40%, #AA771C 75%, #F5D061 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.crimson-text-gradient {
+  background: linear-gradient(135deg, #D42835 0%, #B3202A 40%, #750B12 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-bg-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F5D061 35%, #C9A24B 70%, #946914 100%);
+}
+
+.crimson-bg-gradient {
+  background: linear-gradient(135deg, #B3202A 0%, #8A151D 60%, #4A070D 100%);
+}
+
+.royal-parchment-bg {
+  background-color: #FDFBF7;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(201, 162, 75, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(179, 32, 42, 0.06) 0px, transparent 50%),
+    radial-gradient(at 50% 50%, rgba(251, 243, 224, 0.6) 0px, transparent 100%);
+}
+
+.card-royal-glass {
+  background: rgba(253, 251, 247, 0.96);
+  border: 1px solid rgba(201, 162, 75, 0.25);
+  box-shadow: 0 4px 15px rgba(117, 11, 18, 0.05);
+}
+
+.card-dark-royal {
+  background: #2A0407;
+  border: 1px solid rgba(201, 162, 75, 0.3);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Gold Frame Borders */
+.royal-border-gold {
+  border: 2px solid #C9A24B;
+}
+
+/* Animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes shimmerWave {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulseGoldGlow {
+  0%, 100% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes preloaderStroke {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0.2;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 9s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-pulse-gold {
+  animation: pulseGoldGlow 3s infinite ease-in-out;
+}
+
+.preloader-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: preloaderStroke 2.4s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #F7EBD0;
+}
+::-webkit-scrollbar-thumb {
+  background: #B3202A;
+  border-radius: 4px;
+  border: 2px solid #F7EBD0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8A151D;
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

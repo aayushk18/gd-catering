@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="silkGoldWave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A24B" stop-opacity="0.0" />
+      <stop offset="25%" stop-color="#E5C778" stop-opacity="0.18" />
+      <stop offset="55%" stop-color="#C9A24B" stop-opacity="0.28" />
+      <stop offset="80%" stop-color="#AA771C" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="silkLineGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.0" />
+      <stop offset="30%" stop-color="#F5D061" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#D4AF37" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Flowing Silk Ribbon Layer 1 -->
+  <path d="M 0 200 C 300 80 500 320 800 150 C 950 60 1100 280 1200 200 L 1200 400 L 0 400 Z" fill="url(#silkGoldWave)" />
+  
+  <!-- Flowing Silk Ribbon Layer 2 -->
+  <path d="M 0 260 C 250 140 600 360 850 180 C 1020 80 1120 220 1200 260 L 1200 400 L 0 400 Z" fill="url(#silkGoldWave)" opacity="0.7" />
+
+  <!-- Accent Gilded Contour Lines -->
+  <path d="M 0 200 C 300 80 500 320 800 150 C 950 60 1100 280 1200 200" fill="none" stroke="url(#silkLineGold)" stroke-width="2" />
+  <path d="M 0 220 C 320 90 480 340 820 160 C 970 80 1080 300 1200 220" fill="none" stroke="url(#silkLineGold)" stroke-width="1" stroke-dasharray="8, 6" opacity="0.6" />
+</svg>

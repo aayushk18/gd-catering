@@ -1,0 +1,58 @@
+[
+  {
+    "id": "wedding-catering",
+    "title": "Royal Wedding Catering",
+    "titleHindi": "शाही वैवाहिक कैटरिंग",
+    "description": "Exquisite 500 to 10,000+ guest wedding feasts with royal brass chaffing setups, custom multi-course royal menus, and attentive silver-glove hospitality.",
+    "icon": "Crown",
+    "badge": "Signature Service"
+  },
+  {
+    "id": "engagement-roka",
+    "title": "Engagement & Roka Ceremonies",
+    "titleHindi": "सगाई व रोका समारोह",
+    "description": "Intimate high-tea buffets, gourmet chaat stations, artisanal canapés, and bespoke packaging for shagun sweets and dry fruits.",
+    "icon": "Sparkles",
+    "badge": "Family Celebrations"
+  },
+  {
+    "id": "live-counters",
+    "title": "Live Interactive Gourmet Counters",
+    "titleHindi": "लाइव इंटरएक्टिव फ़ूड काउंटर्स",
+    "description": "Sizzling charcoal tandoor, Purani Dilli chaat, South Indian dosa crisps, live wok Oriental, woodfired Italian pizza, and artisanal pastas.",
+    "icon": "Flame",
+    "badge": "Interactive Culinary"
+  },
+  {
+    "id": "religious-bhandara",
+    "title": "Religious Functions & Mahabhandara",
+    "titleHindi": "धार्मिक अनुष्ठान व महाभंडारा",
+    "description": "Pious, satvik preparation in separate dedicated vessels. Large-scale capacity to serve 25,000+ devotees with warmth, discipline, and purity.",
+    "icon": "Sun",
+    "badge": "Pure & Pious (Satvik)"
+  },
+  {
+    "id": "corporate-events",
+    "title": "Corporate Galas & Summits",
+    "titleHindi": "कॉरपोरेट गाला व सम्मेलन",
+    "description": "Sophisticated multi-cuisine conference lunches, executive high-teas, cocktail party finger foods, and punctual, seamless service.",
+    "icon": "Briefcase",
+    "badge": "Corporate Standard"
+  },
+  {
+    "id": "birthday-anniversary",
+    "title": "Birthday & Anniversary Galas",
+    "titleHindi": "जन्मदिन व वर्षगांठ उत्सव",
+    "description": "Joyful culinary themes, live dessert stations, chocolate fountains, mocktail bars, and custom cake tables tailored to your dream theme.",
+    "icon": "HeartHandshake",
+    "badge": "Memorable Moments"
+  },
+  {
+    "id": "decor-service-staff",
+    "title": "Royal Decor & Service Staff",
+    "titleHindi": "शाही टेबल सज्जा व सेवा दल",
+    "description": "Royal brass ware, velvet runners, copper lanterns, and thoroughly trained, immaculately uniformed hospitality staff and experienced halwai captains.",
+    "icon": "Users",
+    "badge": "White-Glove Hospitality"
+  }
+]

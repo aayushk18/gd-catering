@@ -1,0 +1,98 @@
+[
+  {
+    "id": "gal-1",
+    "title": "Grand Royal Wedding Buffet & Chafers",
+    "titleHindi": "शाही शादी बुफे व ब्रास पात्र",
+    "category": "setups",
+    "image": "/assets/images/hero-buffet.jpg",
+    "aspect": "wide"
+  },
+  {
+    "id": "gal-2",
+    "title": "Master Chefs at Charcoal Tandoor & Chaat",
+    "titleHindi": "लाइव तंदूर व चाट स्टेशन",
+    "category": "food",
+    "image": "/assets/images/hero-live-counter.jpg",
+    "aspect": "wide"
+  },
+  {
+    "id": "gal-3",
+    "title": "Shahi Angara Paneer Tikka",
+    "titleHindi": "शाही अंगारा पनीर टिक्का",
+    "category": "food",
+    "image": "/assets/images/menu-paneer-tikka.jpg",
+    "aspect": "square"
+  },
+  {
+    "id": "gal-4",
+    "title": "Palace Banquet Hall Dinner Reception",
+    "titleHindi": "राजमहल बैंक्वेट हॉल समारोह",
+    "category": "events",
+    "image": "/assets/images/hero-banquet-hall.jpg",
+    "aspect": "wide"
+  },
+  {
+    "id": "gal-5",
+    "title": "Traditional Halwai Desi Ghee Sweets Craft",
+    "titleHindi": "पारंपरिक हलवाई देसी घी कारीगरी",
+    "category": "events",
+    "image": "/assets/images/halwai-heritage.jpg",
+    "aspect": "square"
+  },
+  {
+    "id": "gal-6",
+    "title": "Slow-Simmered Dal Bukhara & Naan",
+    "titleHindi": "दाल बुखारा व तंदूरी नान",
+    "category": "food",
+    "image": "/assets/images/menu-dal-makhani.jpg",
+    "aspect": "square"
+  },
+  {
+    "id": "gal-7",
+    "title": "Royal Awadhi Dum Biryani Handi",
+    "titleHindi": "अवधी दम बिरयानी हांडी",
+    "category": "food",
+    "image": "/assets/images/menu-biryani.jpg",
+    "aspect": "square"
+  },
+  {
+    "id": "gal-8",
+    "title": "Desi Ghee Jalebi with Kulhad Rabri",
+    "titleHindi": "देसी घी जलेबी व कुल्हड़ रबड़ी",
+    "category": "food",
+    "image": "/assets/images/menu-jalebi-rabri.jpg",
+    "aspect": "square"
+  },
+  {
+    "id": "gal-9",
+    "title": "Grand Floral Mandap & Wedding Stage",
+    "titleHindi": "भव्य फ्लोरल मंडप व स्टेज सज्जा",
+    "category": "setups",
+    "image": "/assets/images/event-wedding-stage.jpg",
+    "aspect": "wide"
+  },
+  {
+    "id": "gal-10",
+    "title": "Purani Dilli Live Chaat Station",
+    "titleHindi": "पुरानी दिल्ली लाइव चाट स्टेशन",
+    "category": "food",
+    "image": "/assets/images/menu-chaat-counter.jpg",
+    "aspect": "square"
+  },
+  {
+    "id": "gal-11",
+    "title": "Artisanal Royal Chandi Varq Mithai Thal",
+    "titleHindi": "चांदी वर्क मिष्ठान थाल",
+    "category": "food",
+    "image": "/assets/images/menu-mithai-platter.jpg",
+    "aspect": "square"
+  },
+  {
+    "id": "gal-12",
+    "title": "Maharaja 12-Katori Dining Thali",
+    "titleHindi": "महाराजा 12-कटोरी शाही थाल",
+    "category": "food",
+    "image": "/assets/images/menu-royal-thali.jpg",
+    "aspect": "square"
+  }
+]

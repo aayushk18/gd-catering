@@ -1,0 +1,29 @@
+[
+  {
+    "id": "review-1",
+    "name": "[MR. RAJESH AGARWAL - SAMPLE PLACEHOLDER]",
+    "relation": "Father of the Bride",
+    "event": "[Grand Wedding at Dhampur Green Palms - Placeholder]",
+    "rating": 5,
+    "review": "The legacy of Gudduramji Halwai was evident in every bite. The live chaat counter and hot desi ghee jalebis were the talk of the entire wedding. Highly recommended for anyone seeking true royal taste and flawless discipline.",
+    "date": "[FEBRUARY 2024 - PLACEHOLDER]"
+  },
+  {
+    "id": "review-2",
+    "name": "[MRS. SUNITA SHARMA - SAMPLE PLACEHOLDER]",
+    "relation": "Host & Family Dignitary",
+    "event": "[Silver Jubilee Anniversary Banquet, Bijnor - Placeholder]",
+    "rating": 5,
+    "review": "Outstanding service! The staff was dressed in royal uniforms, and the food temperature and presentation remained pristine throughout the 5 hours of dinner. The Dal Bukhara and Shahi Paneer were phenomenal.",
+    "date": "[NOVEMBER 2023 - PLACEHOLDER]"
+  },
+  {
+    "id": "review-3",
+    "name": "[DR. VIKAS VERMA - SAMPLE PLACEHOLDER]",
+    "relation": "Organizer",
+    "event": "[Medical Conference & Gala Dinner, Moradabad - Placeholder]",
+    "rating": 5,
+    "review": "Catering for over 1,200 doctors and delegates requires precision, hygiene, and exceptional taste. G.D. Caterers executed everything on schedule. Their live pasta and tandoor counters were a massive hit.",
+    "date": "[JANUARY 2024 - PLACEHOLDER]"
+  }
+]

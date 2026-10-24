@@ -1,0 +1,124 @@
+{
+  "categories": [
+    { "id": "all", "label": "Royal Signature Selection", "labelHindi": "समस्त शाही व्यंजन" },
+    { "id": "starters", "label": "Starters & Snacks", "labelHindi": "स्टार्टर्स व स्नैक्स" },
+    { "id": "mains", "label": "Royal Main Course (Veg)", "labelHindi": "शाही मुख्य भोजन" },
+    { "id": "breads", "label": "Breads & Rice", "labelHindi": "शाही रोटियां व पुलाव" },
+    { "id": "live-counters", "label": "Live Gourmet Counters", "labelHindi": "लाइव फूड काउंटर्स" },
+    { "id": "halwai-specials", "label": "Sweets & Halwai Specials", "labelHindi": "पारंपरिक हलवाई मिष्ठान" },
+    { "id": "desserts", "label": "Desserts & Ice Creams", "labelHindi": "आइसक्रीम व डेज़र्ट्स" },
+    { "id": "beverages", "label": "Royal Beverages & Sharbats", "labelHindi": "शाही पेय व ठंडाई" }
+  ],
+  "items": [
+    {
+      "id": "paneer-tikka",
+      "name": "Shahi Angara Paneer Tikka",
+      "nameHindi": "शाही अंगारा पनीर टिक्का",
+      "category": "starters",
+      "description": "Charcoal grilled cottage cheese marinated in hung curd, Kashmiri deghi mirch, and hand-ground royal garam masala. Served with smoky mint glaze.",
+      "isVeg": true,
+      "tag": "Chef's Special",
+      "startingPrice": "₹450",
+      "image": "/assets/images/menu-paneer-tikka.jpg"
+    },
+    {
+      "id": "spring-rolls",
+      "name": "Crispy Golden Spring Rolls",
+      "nameHindi": "कुरकुरी स्प्रिंग रोल्स",
+      "category": "starters",
+      "description": "Crispy golden wrappers filled with julienned Asian wok vegetables, scallions, and water chestnuts. Served with sweet spicy chilli reduction.",
+      "isVeg": true,
+      "tag": "Banquets Favorite",
+      "startingPrice": "₹350",
+      "image": "/assets/images/menu-spring-rolls.jpg"
+    },
+    {
+      "id": "dal-makhani",
+      "name": "Heritage Dal Bukhara / Makhani",
+      "nameHindi": "विरासत दाल मखनी",
+      "category": "mains",
+      "description": "Slow simmered overnight on charcoal hearths with whole urad lentils, slow-churned white butter, vine-ripened tomatoes, and fresh malai.",
+      "isVeg": true,
+      "tag": "Halwai Signature",
+      "startingPrice": "₹550",
+      "image": "/assets/images/menu-dal-makhani.jpg"
+    },
+    {
+      "id": "veg-biryani",
+      "name": "Nawabi Dum Veg Biryani",
+      "nameHindi": "नवाबी दम वेज बिरयानी",
+      "category": "breads",
+      "description": "Aged royal basmati rice layered with saffron milk, marinated seasonal garden vegetables, fried cashews, caramelized birista, and mint leaves.",
+      "isVeg": true,
+      "tag": "Royal Dum Recipe",
+      "startingPrice": "₹480",
+      "image": "/assets/images/menu-biryani.jpg"
+    },
+    {
+      "id": "chaat-counter",
+      "name": "Purani Dilli Shahi Chaat Station",
+      "nameHindi": "पुरानी दिल्ली शाही चाट",
+      "category": "live-counters",
+      "description": "Live counter featuring organic Dahi Bhalla, crispy Palak Patta Chaat, Matra Kulcha, and artisanal Golgappe with 5 flavored herbal waters.",
+      "isVeg": true,
+      "tag": "Most Popular Live Counter",
+      "startingPrice": "₹400",
+      "image": "/assets/images/menu-chaat-counter.jpg"
+    },
+    {
+      "id": "jalebi-rabri",
+      "name": "Desi Ghee Jalebi with Laccha Rabri",
+      "nameHindi": "शुद्ध देसी घी जलेबी लच्छा रबड़ी",
+      "category": "halwai-specials",
+      "description": "Piping hot spiral jalebis fried live in pure cow desi ghee, infused with saffron syrup, served alongside chilled hand-stirred earthen pot rabri.",
+      "isVeg": true,
+      "tag": "Gudduramji Halwai Classic",
+      "startingPrice": "₹380",
+      "image": "/assets/images/menu-jalebi-rabri.jpg"
+    },
+    {
+      "id": "mithai-platter",
+      "name": "Royal Chandi Varq Mithai Thal",
+      "nameHindi": "शाही चांदी वर्क मिष्ठान थाल",
+      "category": "halwai-specials",
+      "description": "Heritage platter boasting pure Kaju Katli with real silver foil, Saffron Rasmalai, Pista Mawa Barfi, and Ghee Motichoor Ladoos.",
+      "isVeg": true,
+      "tag": "Generational Halwai Pride",
+      "startingPrice": "₹600",
+      "image": "/assets/images/menu-mithai-platter.jpg"
+    },
+    {
+      "id": "royal-thali",
+      "name": "Maharaja Grand Royal Feast Thali",
+      "nameHindi": "महाराजा शाही भव्य थाल",
+      "category": "mains",
+      "description": "Comprehensive royal dining experience with 12 handcrafted katoris: Shahi Paneer, Pindi Chole, Dal Makhani, Boondi Raita, Pulao, assorted breads, and sweets.",
+      "isVeg": true,
+      "tag": "VIP Hospitality",
+      "startingPrice": "₹950",
+      "image": "/assets/images/menu-royal-thali.jpg"
+    },
+    {
+      "id": "live-tandoor",
+      "name": "Amritsari Live Tandoor & Rotis",
+      "nameHindi": "अमृतसरी लाइव तंदूर व कुलचा",
+      "category": "live-counters",
+      "description": "Live clay ovens churning out hot Butter Naans, Missi Rotis, Chur-Chur Naan, and Laccha Parathas brushed with clarified butter.",
+      "isVeg": true,
+      "tag": "Fresh Live Service",
+      "startingPrice": "₹320",
+      "image": "/assets/images/hero-live-counter.jpg"
+    },
+    {
+      "id": "royal-beverages",
+      "name": "Rajwadi Kesaria Thandai & Sharbats",
+      "nameHindi": "रजवाड़ी केसरिया ठंडाई व शर्बत",
+      "category": "beverages",
+      "description": "Stone-ground almond and pistachio milk scented with Kashmiri saffron, rose petal water, and organic herbal coolers.",
+      "isVeg": true,
+      "tag": "Welcome Delight",
+      "startingPrice": "₹220",
+      "image": "/assets/images/hero-buffet.jpg"
+    }
+  ]
+}

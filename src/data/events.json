@@ -1,0 +1,32 @@
+[
+  {
+    "id": "event-1",
+    "eventName": "[ROYAL DESTINATION WEDDING - PLACEHOLDER]",
+    "clientName": "[ESTEEMED INDUSTRIALIST FAMILY - PLACEHOLDER]",
+    "cityYear": "[JIM CORBETT / DEHRADUN, 2024]",
+    "guestCount": "2,500+ Royalty & Dignitaries",
+    "theme": "Palatial Crimson & Mughal Grandeur",
+    "image": "/assets/images/event-wedding-stage.jpg",
+    "quote": "The live counters and traditional jalebi rabri set a new benchmark of wedding hospitality for our guests from across the world."
+  },
+  {
+    "id": "event-2",
+    "eventName": "[STATE LEVEL GALA & CIVIC FELICITATION - PLACEHOLDER]",
+    "clientName": "[HON'BLE REGIONAL LEADERSHIP - PLACEHOLDER]",
+    "cityYear": "[DHAMPUR / BIJNOR, 2023]",
+    "guestCount": "6,000+ Guests",
+    "theme": "Grand Heritage Awadhi & Satvik Feast",
+    "image": "/assets/images/hero-banquet-hall.jpg",
+    "quote": "Punctual execution, spotless hygiene and warm halwai care. G.D. Caterers made our mega event effortlessly grand."
+  },
+  {
+    "id": "event-3",
+    "eventName": "[LUXURY PALACE RECEPTION - PLACEHOLDER]",
+    "clientName": "[PROMINENT BUSINESS HOUSE - PLACEHOLDER]",
+    "cityYear": "[NEW DELHI / NOIDA, 2024]",
+    "guestCount": "3,800+ Attendees",
+    "theme": "Gold Foil Royal Courtyard & 18 Live Counters",
+    "image": "/assets/images/hero-buffet.jpg",
+    "quote": "Every dish from starters to mithai thal was praised by all our guests. True masters of royal vegetarian feast."
+  }
+]

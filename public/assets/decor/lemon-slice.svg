@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <!-- Lemon Rind & Pulp Gradients -->
+    <radialGradient id="lemonRind" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" stop-color="#FFE853" />
+      <stop offset="90%" stop-color="#FFD400" />
+      <stop offset="100%" stop-color="#E5A800" />
+    </radialGradient>
+    <radialGradient id="lemonPulp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFAD1" />
+      <stop offset="60%" stop-color="#FFE769" />
+      <stop offset="100%" stop-color="#F7CE19" />
+    </radialGradient>
+    <filter id="lemonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="5" stdDeviation="4" flood-color="#7A5600" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <g filter="url(#lemonGlow)">
+    <!-- Outer Yellow Rind -->
+    <circle cx="50" cy="50" r="46" fill="url(#lemonRind)" stroke="#E5A800" stroke-width="1.5" />
+    <!-- White Pith Ring -->
+    <circle cx="50" cy="50" r="41" fill="#FFFFFF" opacity="0.9" />
+
+    <!-- 8 Translucent Pulp Segments -->
+    <!-- Segment 1 -->
+    <path d="M 50 47 L 50 14 A 36 36 0 0 1 75 25 L 53 47 Z" fill="url(#lemonPulp)" stroke="#FFFFFF" stroke-width="1.5" rx="3" />
+    <!-- Segment 2 -->
+    <path d="M 53 50 L 86 50 A 36 36 0 0 1 75 75 L 53 53 Z" fill="url(#lemonPulp)" stroke="#FFFFFF" stroke-width="1.5" rx="3" />
+    <!-- Segment 3 -->
+    <path d="M 50 53 L 50 86 A 36 36 0 0 1 25 75 L 47 53 Z" fill="url(#lemonPulp)" stroke="#FFFFFF" stroke-width="1.5" rx="3" />
+    <!-- Segment 4 -->
+    <path d="M 47 50 L 14 50 A 36 36 0 0 1 25 25 L 47 47 Z" fill="url(#lemonPulp)" stroke="#FFFFFF" stroke-width="1.5" rx="3" />
+
+    <!-- Additional Segments (Diagonals) -->
+    <path d="M 52 48 L 73 27 A 36 36 0 0 1 85 48 L 54 49 Z" fill="url(#lemonPulp)" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9" />
+    <path d="M 52 52 L 73 73 A 36 36 0 0 1 52 85 L 51 54 Z" fill="url(#lemonPulp)" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9" />
+    <path d="M 48 52 L 27 73 A 36 36 0 0 1 15 52 L 46 51 Z" fill="url(#lemonPulp)" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9" />
+    <path d="M 48 48 L 27 27 A 36 36 0 0 1 48 15 L 49 46 Z" fill="url(#lemonPulp)" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9" />
+
+    <!-- Center White Core -->
+    <circle cx="50" cy="50" r="4.5" fill="#FFFFFF" />
+    <circle cx="50" cy="50" r="2" fill="#FFFBE6" />
+  </g>
+</svg>

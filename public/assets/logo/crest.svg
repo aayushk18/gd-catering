@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Royal Crimson Gradients -->
+    <linearGradient id="royalCrimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C41E2A" />
+      <stop offset="45%" stop-color="#9E1520" />
+      <stop offset="100%" stop-color="#6E0B13" />
+    </linearGradient>
+
+    <!-- Antique Gold Foil Gradient -->
+    <linearGradient id="antiqueGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE6A3" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA771C" />
+      <stop offset="100%" stop-color="#F5D061" />
+    </linearGradient>
+
+    <filter id="royalShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#4A070D" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <g filter="url(#royalShadow)">
+    <!-- ================= TOP CROWN ================= -->
+    <!-- Crown Base Band -->
+    <path d="M 205 138 Q 250 148 295 138 L 291 146 Q 250 154 209 146 Z" fill="url(#royalCrimson)" />
+    <!-- Crown Band Jewels -->
+    <circle cx="218" cy="143" r="2.5" fill="#FAF5E8" />
+    <circle cx="234" cy="145" r="2.5" fill="#FAF5E8" />
+    <circle cx="250" cy="146" r="3" fill="#FFE6A3" />
+    <circle cx="266" cy="145" r="2.5" fill="#FAF5E8" />
+    <circle cx="282" cy="143" r="2.5" fill="#FAF5E8" />
+
+    <!-- Crown Peaks & Filigree Spikes -->
+    <!-- Center Peak -->
+    <path d="M 246 142 L 250 102 L 254 142 Z" fill="url(#royalCrimson)" />
+    <circle cx="250" cy="99" r="6.5" fill="url(#royalCrimson)" />
+    <circle cx="250" cy="99" r="3" fill="#FFE6A3" />
+    <!-- Center fleur curls -->
+    <path d="M 250 115 C 242 110 236 122 245 128 C 248 122 249 118 250 115 Z" fill="url(#royalCrimson)" />
+    <path d="M 250 115 C 258 110 264 122 255 128 C 252 122 251 118 250 115 Z" fill="url(#royalCrimson)" />
+
+    <!-- Left Intermediate Peak -->
+    <path d="M 226 140 L 222 112 L 235 135 Z" fill="url(#royalCrimson)" />
+    <circle cx="220" cy="109" r="4.5" fill="url(#royalCrimson)" />
+    <circle cx="220" cy="109" r="2" fill="#FAF5E8" />
+
+    <!-- Right Intermediate Peak -->
+    <path d="M 274 140 L 278 112 L 265 135 Z" fill="url(#royalCrimson)" />
+    <circle cx="280" cy="109" r="4.5" fill="url(#royalCrimson)" />
+    <circle cx="280" cy="109" r="2" fill="#FAF5E8" />
+
+    <!-- Outer Left Peak -->
+    <path d="M 207 138 C 195 128 202 118 206 122 C 204 128 211 134 213 139 Z" fill="url(#royalCrimson)" />
+    <circle cx="204" cy="120" r="4" fill="url(#royalCrimson)" />
+
+    <!-- Outer Right Peak -->
+    <path d="M 293 138 C 305 128 298 118 294 122 C 296 128 289 134 287 139 Z" fill="url(#royalCrimson)" />
+    <circle cx="296" cy="120" r="4" fill="url(#royalCrimson)" />
+
+    <!-- Crown Crest Base Swirls -->
+    <path d="M 230 152 Q 250 162 270 152 Q 250 157 230 152 Z" fill="url(#royalCrimson)" />
+
+
+    <!-- ================= CIRCULAR MEDALLION ================= -->
+    <!-- Outer Decorative Ring -->
+    <circle cx="250" cy="265" r="95" fill="none" stroke="url(#royalCrimson)" stroke-width="5" />
+    
+    <!-- Middle Sunray / Dotted Teeth Ring -->
+    <circle cx="250" cy="265" r="86" fill="none" stroke="url(#royalCrimson)" stroke-width="2" stroke-dasharray="2, 5" />
+    <circle cx="250" cy="265" r="80" fill="none" stroke="url(#royalCrimson)" stroke-width="1.5" />
+
+    <!-- Inner Medallion Background with subtle warm parchment/cream glow -->
+    <circle cx="250" cy="265" r="77" fill="#FDF8EC" stroke="url(#royalCrimson)" stroke-width="2.5" />
+
+    <!-- Monogram Letters "G.D." -->
+    <g id="monogram">
+      <text x="250" y="286"
+        font-family="'Playfair Display', 'Cormorant Garamond', 'Georgia', serif"
+        font-size="64"
+        font-weight="700"
+        font-style="italic"
+        letter-spacing="1"
+        text-anchor="middle"
+        fill="url(#royalCrimson)">G.D.</text>
+    </g>
+
+
+    <!-- ================= LAUREL WREATH & FOLIAGE ================= -->
+    <!-- Left Laurel Branch Leaves -->
+    <g id="left-laurel" fill="url(#royalCrimson)">
+      <!-- Leaf 1 (Top) -->
+      <path d="M 195 178 C 182 170 178 185 188 190 C 196 186 196 180 195 178 Z" />
+      <path d="M 183 162 C 170 158 168 174 179 177 C 185 172 185 165 183 162 Z" />
+      <!-- Leaf 2 -->
+      <path d="M 166 195 C 150 190 148 206 160 210 C 168 204 168 198 166 195 Z" />
+      <path d="M 174 212 C 160 210 156 226 169 228 C 176 221 176 215 174 212 Z" />
+      <!-- Leaf 3 (Middle) -->
+      <path d="M 152 232 C 136 230 135 247 149 248 C 156 241 155 234 152 232 Z" />
+      <path d="M 160 252 C 145 254 148 271 161 269 C 166 261 164 254 160 252 Z" />
+      <!-- Leaf 4 -->
+      <path d="M 150 274 C 136 279 142 296 155 292 C 159 284 156 277 150 274 Z" />
+      <path d="M 164 294 C 152 302 161 317 172 310 C 174 301 170 295 164 294 Z" />
+      <!-- Leaf 5 (Bottom) -->
+      <path d="M 168 316 C 158 327 170 339 180 330 C 180 321 175 317 168 316 Z" />
+      <path d="M 185 334 C 178 347 194 354 201 343 C 199 334 193 332 185 334 Z" />
+
+      <!-- Left Laurel Stem Vine -->
+      <path d="M 204 166 C 170 195 145 250 162 315 C 172 338 190 355 208 362" 
+        fill="none" stroke="url(#royalCrimson)" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+    <!-- Right Laurel Branch Leaves (Mirrored) -->
+    <g id="right-laurel" fill="url(#royalCrimson)">
+      <!-- Leaf 1 (Top) -->
+      <path d="M 305 178 C 318 170 322 185 312 190 C 304 186 304 180 305 178 Z" />
+      <path d="M 317 162 C 330 158 332 174 321 177 C 315 172 315 165 317 162 Z" />
+      <!-- Leaf 2 -->
+      <path d="M 334 195 C 350 190 352 206 340 210 C 332 204 332 198 334 195 Z" />
+      <path d="M 326 212 C 340 210 344 226 331 228 C 324 221 324 215 326 212 Z" />
+      <!-- Leaf 3 (Middle) -->
+      <path d="M 348 232 C 364 230 365 247 351 248 C 344 241 345 234 348 232 Z" />
+      <path d="M 340 252 C 355 254 352 271 339 269 C 334 261 336 254 340 252 Z" />
+      <!-- Leaf 4 -->
+      <path d="M 350 274 C 364 279 358 296 345 292 C 341 284 344 277 350 274 Z" />
+      <path d="M 336 294 C 348 302 339 317 328 310 C 326 301 330 295 336 294 Z" />
+      <!-- Leaf 5 (Bottom) -->
+      <path d="M 332 316 C 342 327 330 339 320 330 C 320 321 325 317 332 316 Z" />
+      <path d="M 315 334 C 322 347 306 354 299 343 C 301 334 307 332 315 334 Z" />
+
+      <!-- Right Laurel Stem Vine -->
+      <path d="M 296 166 C 330 195 355 250 338 315 C 328 338 310 355 292 362" 
+        fill="none" stroke="url(#royalCrimson)" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+
+    <!-- ================= BOTTOM ACANTHUS & ORNATE SCROLLWORK ================= -->
+    <!-- Central Bottom Rosette / Palmette -->
+    <g id="bottom-scrolls" fill="url(#royalCrimson)">
+      <!-- Center downward flourish -->
+      <path d="M 250 366 C 244 380 240 405 250 422 C 260 405 256 380 250 366 Z" />
+      <circle cx="250" cy="426" r="3.5" />
+
+      <!-- Left Scroll Curl -->
+      <path d="M 248 375 C 235 385 210 395 190 380 C 172 366 182 345 200 350 C 215 354 212 372 198 370 C 190 368 188 360 194 356 C 200 354 204 362 196 365 C 205 375 224 372 238 366 Z" />
+      
+      <!-- Right Scroll Curl -->
+      <path d="M 252 375 C 265 385 290 395 310 380 C 328 366 318 345 300 350 C 285 354 288 372 302 370 C 310 368 312 360 306 356 C 300 354 296 362 304 365 C 295 375 276 372 262 366 Z" />
+
+      <!-- Supporting Acanthus Leaf Wings -->
+      <path d="M 220 376 C 185 390 160 415 185 425 C 208 432 230 405 245 386 Z" />
+      <path d="M 280 376 C 315 390 340 415 315 425 C 292 432 270 405 255 386 Z" />
+
+      <!-- Bottom Flank Ribbon Tails -->
+      <path d="M 188 418 C 160 426 148 408 158 395 C 162 405 174 412 188 418 Z" />
+      <path d="M 312 418 C 340 426 352 408 342 395 C 338 405 326 412 312 418 Z" />
+
+      <!-- Gold Accent Beads on Base -->
+      <circle cx="250" cy="378" r="4" fill="url(#antiqueGold)" />
+      <circle cx="236" cy="382" r="3" fill="url(#antiqueGold)" />
+      <circle cx="264" cy="382" r="3" fill="url(#antiqueGold)" />
+    </g>
+  </g>
+</svg>

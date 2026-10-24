@@ -1,0 +1,30 @@
+[
+  {
+    "year": "[YEAR FOUNDED - e.g. 1985]",
+    "title": "The Founding Hearth in Dhampur",
+    "titleHindi": "धामपुर में नींव और पारंपरिक मिष्ठान",
+    "description": "Founded by [FOUNDER NAME - e.g. Shri Gudduramji Halwai], beginning as a beloved sweetmaker revered across Dhampur and Bijnor district for pure desi ghee preparation, uncompromising integrity, and divine taste.",
+    "highlight": "Pure Desi Ghee Halwai Roots"
+  },
+  {
+    "year": "[MILESTONE YEAR - e.g. 1998]",
+    "title": "Expansion into Grand Community Feasts",
+    "titleHindi": "सामुदायिक दावतों में विस्तार",
+    "description": "On immense public demand, the kitchen expanded from sweet making into full-course wedding dinners and large spiritual gatherings, setting new benchmarks for regional hospitality.",
+    "highlight": "Grand Gathering Logistics"
+  },
+  {
+    "year": "[MILESTONE YEAR - e.g. 2010]",
+    "title": "Inception of G.D. Caterers Modern Fleet",
+    "titleHindi": "जी.डी. कैटरर्स की आधुनिक शुरुआत",
+    "description": "Formalized under the banner of G.D. Caterers — a proud unit of Gudduramji Halwai — introducing five-star live counters, imported chafing vessels, and multi-regional culinary master chefs.",
+    "highlight": "5-Star Live Cooking Innovations"
+  },
+  {
+    "year": "[CURRENT ERA - e.g. 2026]",
+    "title": "The Regal Wedding Benchmark of Western UP",
+    "titleHindi": "शाही शादियों का सबसे विश्वसनीय नाम",
+    "description": "Today catering India's grandest destination and palace weddings across Uttar Pradesh, Uttarakhand, and Delhi NCR, orchestrating feasts for up to 15,000 guests in a single evening.",
+    "highlight": "Statewide Royal Reputation"
+  }
+]
